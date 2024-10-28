@@ -42,12 +42,8 @@ export default function RootLayout({
 
               {/* Mobile Navigation */}
               <div className="flex md:hidden items-center space-x-4">
-                <Link href="/" className="p-2 text-gray-600 hover:text-blue-600">
-                  <Home className="w-5 h-5" />
-                </Link>
-                <Link href="/about" className="p-2 text-gray-600 hover:text-blue-600">
-                  <Info className="w-5 h-5" />
-                </Link>
+             
+             
                 <Link href="/services" className="p-2 text-gray-600 hover:text-blue-600">
                   <Briefcase className="w-5 h-5" />
                 </Link>
@@ -55,7 +51,7 @@ export default function RootLayout({
                   <Calendar className="w-5 h-5" />
                 </Link>
                 <Button asChild size="sm">
-                  <Link href="/apply">Apply Now</Link>
+                  <Link href="/apply">Apply</Link>
                 </Button>
               </div>
             </nav>
